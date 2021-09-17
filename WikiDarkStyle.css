@@ -1,0 +1,35 @@
+body, div, h1, h2, h3, h4, ul, li, th{
+    background-color: #121212 !important;
+    color: #B7BABC !important;
+  }
+
+table, table div {
+    background-color: #171717 !important;
+    color: #B7BABC !important;
+}
+
+input {
+    background-color: rgba(255,255,255) !important;;
+}
+
+
+li {
+    background-image: none !important;
+}
+
+span {
+  color: #B7BABC !important;
+}
+
+
+a {
+    color: #6BAAE4 !important;
+}
+
+.mw-body {
+    border: 1px solid #6BAAE4 !important;
+}
+
+.mw-wiki-logo {
+    background-image: url(/images/enwikiWhiteText.png) !important;
+}

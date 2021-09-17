@@ -1,0 +1,21 @@
+{  
+
+    "manifest_version": 2,
+    "name": "Wikipedia Dark Mode - Visually Accessible",
+    "version": "1.0",
+  
+    "description": "Dark mode for Wikipedia that strives to be more accessible via more visually digestible contrast. ",
+
+    "icons": {
+      "48": "icons/darkWicon.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.wikipedia.org/*"],
+        "js": ["WikiDark.js"],
+        "css": ["WikiDarkStyle.css"]
+      }
+    ]
+  
+  }
