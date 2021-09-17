@@ -12,7 +12,7 @@
 
     "content_scripts": [
       {
-        "matches": ["*://*.wikipedia.org/*"],
+        "matches": ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*"],
         "js": ["WikiDark.js"],
         "css": ["WikiDarkStyle.css"]
       }

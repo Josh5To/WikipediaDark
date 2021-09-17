@@ -8,8 +8,19 @@ table, table div {
     color: #B7BABC !important;
 }
 
+.infobox-subheader, .MainPageBG {
+    background-color: #171717 !important;
+    color: #B7BABC !important;
+}
+
+pre, code, .mw-code {
+    background-color: #8c8c8c;
+    color: #000;
+    border: 1px solid #8c8c8c;
+}
+
 input {
-    background-color: rgba(255,255,255) !important;;
+    background-color: rgba(255,255,255) !important;
 }
 
 
