@@ -14,7 +14,8 @@
       {
         "matches": ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*"],
         "js": ["WikiDark.js"],
-        "css": ["WikiDarkStyle.css"]
+        "css": ["WikiDarkStyle.css"],
+        "run_at": "document_start"
       }
     ]
   
