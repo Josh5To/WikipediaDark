@@ -5,6 +5,7 @@
     "version": "1.0",
   
     "description": "Dark mode for Wikipedia that strives to be more accessible via more visually digestible contrast. ",
+    "homepage_url": "https://github.com/Josh5To/WikipediaDark",
 
     "icons": {
       "48": "icons/darkWicon.png"
@@ -12,7 +13,7 @@
 
     "content_scripts": [
       {
-        "matches": ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*"],
+        "matches": ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*", "*://*.twitter.com/*"],
         "js": ["WikiDark.js"],
         "css": ["WikiDarkStyle.css"],
         "run_at": "document_start"
