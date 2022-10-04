@@ -1,7 +1,7 @@
-body, div:not(.mw-notification-area-overlay), h1, h2, h3, h4, ul, li, th{
+ccodbody, div:not(.mw-notification-area-overlay), h1, h2, h3, h4, ul, li, th{
     background-color: #121212 !important;
     color: #B7BABC !important;
-  }
+}
 
 table, table div {
     background-color: #171717 !important;
@@ -14,9 +14,13 @@ table, table div {
 }
 
 pre, code, .mw-code {
-    background-color: #8c8c8c;
-    color: #000;
+    background-color: #393939;
+    color: #8c8c8c;
     border: 1px solid #8c8c8c;
+}
+
+pre span {
+    color: black
 }
 
 input {
@@ -37,6 +41,10 @@ a {
     color: #6BAAE4 !important;
 }
 
+html {
+    background: #121212;
+}
+
 .mw-body {
     border: 1px solid #6BAAE4 !important;
 }
@@ -48,3 +56,9 @@ a {
 .mw-notification-area-overlay {
     background-color: revert;
 }
+
+.mwe-popups .mwe-popups-extract blockquote:after {
+    display: none !important;
+    background-image: none !important;
+}
+
